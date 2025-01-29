@@ -348,7 +348,7 @@ table {
 	}
 
 	@include breakpoint('<=small') {
-		@include html-grid((20px, 20px), 'small');
+		@include html-grid((20px, 10px), 'small');
 	}
 }
 
@@ -1094,7 +1094,7 @@ ul.social {
 /* Banner */
 
 #banner {
-	background: url('../../images/vote.jpg');
+	background: url('../../images/vote_light.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1495,7 +1495,7 @@ ul.social {
 	/* Intro */
 
 	#intro {
-		padding: 3em 0 0 0;
+		padding: 5rem;
 
 		section {
 			position: relative;
@@ -1519,6 +1519,14 @@ ul.social {
 			&:after {
 				display: none;
 			}
+		}
+
+		.middle_pic {
+			background-position: 2% 13%;
+		}
+
+		.last_pic {
+			background-position: 2% 18%;
 		}
 
 		footer {
@@ -1766,6 +1774,11 @@ ul.social {
 				}
 			}
 		}
+
+		.image img {
+			height: 12rem;
+		}
+
 	}
 
 	/* Divided */

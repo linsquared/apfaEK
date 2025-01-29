@@ -1169,11 +1169,11 @@ table {
     padding-top: 0px;
   }
   .row.gtr-25 {
-    margin-top: -5px;
+    margin-top: -2.5px;
     margin-left: -5px;
   }
   .row.gtr-25 > * {
-    padding: 5px 0 0 5px;
+    padding: 2.5px 0 0 5px;
   }
   .row.gtr-25.gtr-uniform {
     margin-top: -5px;
@@ -1182,11 +1182,11 @@ table {
     padding-top: 5px;
   }
   .row.gtr-50 {
-    margin-top: -10px;
+    margin-top: -5px;
     margin-left: -10px;
   }
   .row.gtr-50 > * {
-    padding: 10px 0 0 10px;
+    padding: 5px 0 0 10px;
   }
   .row.gtr-50.gtr-uniform {
     margin-top: -10px;
@@ -1195,11 +1195,11 @@ table {
     padding-top: 10px;
   }
   .row {
-    margin-top: -20px;
+    margin-top: -10px;
     margin-left: -20px;
   }
   .row > * {
-    padding: 20px 0 0 20px;
+    padding: 10px 0 0 20px;
   }
   .row.gtr-uniform {
     margin-top: -20px;
@@ -1208,11 +1208,11 @@ table {
     padding-top: 20px;
   }
   .row.gtr-150 {
-    margin-top: -30px;
+    margin-top: -15px;
     margin-left: -30px;
   }
   .row.gtr-150 > * {
-    padding: 30px 0 0 30px;
+    padding: 15px 0 0 30px;
   }
   .row.gtr-150.gtr-uniform {
     margin-top: -30px;
@@ -1221,11 +1221,11 @@ table {
     padding-top: 30px;
   }
   .row.gtr-200 {
-    margin-top: -40px;
+    margin-top: -20px;
     margin-left: -40px;
   }
   .row.gtr-200 > * {
-    padding: 40px 0 0 40px;
+    padding: 20px 0 0 40px;
   }
   .row.gtr-200.gtr-uniform {
     margin-top: -40px;
@@ -1873,7 +1873,7 @@ ul.social li a.fa-google-plus:hover {
 
 /* Banner */
 #banner {
-  background: url("../../images/vote.jpg");
+  background: url("../../images/vote_light.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2176,7 +2176,7 @@ ul.social li a.fa-google-plus:hover {
   }
   /* Intro */
   #intro {
-    padding: 3em 0 0 0;
+    padding: 5rem;
   }
   #intro section {
     position: relative;
@@ -2193,6 +2193,12 @@ ul.social li a.fa-google-plus:hover {
   }
   #intro .middle:before, #intro .middle:after {
     display: none;
+  }
+  #intro .middle_pic {
+    background-position: 2% 13%;
+  }
+  #intro .last_pic {
+    background-position: 2% 18%;
   }
   #intro footer {
     padding: 3em 0 0 0;
@@ -2421,6 +2427,9 @@ ul.social li a.fa-google-plus:hover {
   .box.post header > p {
     margin-top: 0;
     font-size: 1em;
+  }
+  .box .image img {
+    height: 12rem;
   }
   /* Divided */
   ul.divided li {
